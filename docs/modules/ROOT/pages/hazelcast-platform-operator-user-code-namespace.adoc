@@ -187,7 +187,7 @@ kubectl create secret generic <SECRET-NAME> \
 
 . Apply the UserCodeNamespace resource
 +
-Run the following command to create the UserCodeDeployment, referencing to the bucket where the EntryLister JAR is located.
+Run the following command to create the UserCodeNamespace, referencing to the bucket where the EntryLister JAR is located.
 +
 [source, shell]
 ----
@@ -198,7 +198,7 @@ EOF
 
 . Check the status of the UserCodeNamespace resource
 +
-Run the following command to check the status of the UserCodeDeployment resource
+Run the following command to check the status of the UserCodeNamespace resource
 +
 [source, shell]
 ----
